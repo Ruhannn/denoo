@@ -1,0 +1,211 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.6",
+    "jsr:@std/async@*": "1.0.6",
+    "jsr:@std/cli@*": "1.0.6",
+    "jsr:@std/cli@^1.0.6": "1.0.6",
+    "jsr:@std/encoding@^1.0.5": "1.0.5",
+    "jsr:@std/fmt@^1.0.2": "1.0.2",
+    "jsr:@std/http@*": "1.0.8",
+    "jsr:@std/internal@^1.0.4": "1.0.4",
+    "jsr:@std/media-types@^1.0.3": "1.0.3",
+    "jsr:@std/net@^1.0.4": "1.0.4",
+    "jsr:@std/path@^1.0.6": "1.0.6",
+    "jsr:@std/streams@^1.0.7": "1.0.7",
+    "npm:@types/node@*": "22.5.4",
+    "npm:c@*": "1.1.1",
+    "npm:create-vite-extra@latest": "2.4.1",
+    "npm:create-vite@latest": "5.5.3",
+    "npm:crypto-js@*": "4.2.0",
+    "npm:crypto@*": "1.0.1",
+    "npm:ct@*": "1.0.6"
+  },
+  "jsr": {
+    "@std/assert@1.0.6": {
+      "integrity": "1904c05806a25d94fe791d6d883b685c9e2dcd60e4f9fc30f4fc5cf010c72207",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/async@1.0.6": {
+      "integrity": "6d262156dd35c4a72ee1a2f8679be40264f370cfb92e2e13d4eca2ae05e16f34"
+    },
+    "@std/cli@1.0.6": {
+      "integrity": "d22d8b38c66c666d7ad1f2a66c5b122da1704f985d3c47f01129f05abb6c5d3d"
+    },
+    "@std/encoding@1.0.5": {
+      "integrity": "ecf363d4fc25bd85bd915ff6733a7e79b67e0e7806334af15f4645c569fefc04"
+    },
+    "@std/fmt@1.0.2": {
+      "integrity": "87e9dfcdd3ca7c066e0c3c657c1f987c82888eb8103a3a3baa62684ffeb0f7a7"
+    },
+    "@std/http@1.0.8": {
+      "integrity": "6ea1b2e8d33929967754a3b6d6c6f399ad6647d7bbb5a466c1eaf9b294a6ebcd",
+      "dependencies": [
+        "jsr:@std/cli@^1.0.6",
+        "jsr:@std/encoding",
+        "jsr:@std/fmt",
+        "jsr:@std/media-types",
+        "jsr:@std/net",
+        "jsr:@std/path",
+        "jsr:@std/streams"
+      ]
+    },
+    "@std/internal@1.0.4": {
+      "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
+    },
+    "@std/media-types@1.0.3": {
+      "integrity": "b12d30a7852f7578f4d210622df713bbfd1cbdd9b4ec2eaf5c1845ab70bab159"
+    },
+    "@std/net@1.0.4": {
+      "integrity": "2f403b455ebbccf83d8a027d29c5a9e3a2452fea39bb2da7f2c04af09c8bc852"
+    },
+    "@std/path@1.0.6": {
+      "integrity": "ab2c55f902b380cf28e0eec501b4906e4c1960d13f00e11cfbcd21de15f18fed"
+    },
+    "@std/streams@1.0.7": {
+      "integrity": "1a93917ca0c58c01b2bfb93647189229b1702677f169b6fb61ad6241cd2e499b"
+    }
+  },
+  "npm": {
+    "@types/node@14.18.63": {
+      "integrity": "sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ=="
+    },
+    "@types/node@22.5.4": {
+      "integrity": "sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "c@1.1.1": {
+      "integrity": "sha512-pk51cOwUCLvfFiXmPdtWhH7cK0C66oLms1ndtFu/IzgScKmwSwEEQj63qUBPsJvEPM2m+LXgMK7d964lcxoSPw==",
+      "dependencies": [
+        "@types/node@14.18.63",
+        "colors",
+        "true-case-path"
+      ]
+    },
+    "colors@1.4.0": {
+      "integrity": "sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA=="
+    },
+    "create-vite-extra@2.4.1": {
+      "integrity": "sha512-E6ZfVShrLGUlSsOVwFd5navPF8oeQfxTzyaPnjY3CCfsGVzS3OhCk1V88Yq/fpgtISBLrDI9wfoWMjSjfj/eqA==",
+      "dependencies": [
+        "minimist",
+        "picocolors",
+        "prompts"
+      ]
+    },
+    "create-vite@5.5.3": {
+      "integrity": "sha512-7ooDS8IsvxMd8axuA70makifVe9Oo5Pa/oTh8ykClKSYbpSbIAZF/pkitv3yWe8OKcJGyLWuta/touAsr4qang=="
+    },
+    "crypto-js@4.2.0": {
+      "integrity": "sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q=="
+    },
+    "crypto@1.0.1": {
+      "integrity": "sha512-VxBKmeNcqQdiUQUW2Tzq0t377b54N2bMtXO/qiLa+6eRRmmC4qT3D4OnTGoT/U6O9aklQ/jTwbOtRMTTY8G0Ig=="
+    },
+    "ct@1.0.6": {
+      "integrity": "sha512-SguO0/8kuVgG9quVJNH7O7ufChDmNMWTt+czftb6r5zC6UYvp1AGQfGSwSC2kTet5LiUvialGW7puyyKrtDikg=="
+    },
+    "kleur@3.0.3": {
+      "integrity": "sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w=="
+    },
+    "minimist@1.2.8": {
+      "integrity": "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="
+    },
+    "picocolors@1.1.1": {
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="
+    },
+    "prompts@2.4.2": {
+      "integrity": "sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==",
+      "dependencies": [
+        "kleur",
+        "sisteransi"
+      ]
+    },
+    "sisteransi@1.0.5": {
+      "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="
+    },
+    "true-case-path@2.2.1": {
+      "integrity": "sha512-0z3j8R7MCjy10kc/g+qg7Ln3alJTodw9aDuVWZa3uiWqfuBMKeAeP2ocWcxoyM3D73yz3Jt/Pu4qPr4wHSdB/Q=="
+    },
+    "undici-types@6.19.8": {
+      "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.175.0/async/abortable.ts": "73acfb3ed7261ce0d930dbe89e43db8d34e017b063cf0eaa7d215477bf53442e",
+    "https://deno.land/std@0.175.0/async/deadline.ts": "b98e50d2c42399af03ad13bbb8cf59dadb9f0cd5d70648cc0c3b9202d75ab565",
+    "https://deno.land/std@0.175.0/async/debounce.ts": "adab11d04ca38d699444ac8a9d9856b4155e8dda2afd07ce78276c01ea5a4332",
+    "https://deno.land/std@0.175.0/async/deferred.ts": "42790112f36a75a57db4a96d33974a936deb7b04d25c6084a9fa8a49f135def8",
+    "https://deno.land/std@0.175.0/async/delay.ts": "73aa04cec034c84fc748c7be49bb15cac3dd43a57174bfdb7a4aec22c248f0dd",
+    "https://deno.land/std@0.175.0/async/mod.ts": "f04344fa21738e5ad6bea37a6bfffd57c617c2d372bb9f9dcfd118a1b622e576",
+    "https://deno.land/std@0.175.0/async/mux_async_iterator.ts": "70c7f2ee4e9466161350473ad61cac0b9f115cff4c552eaa7ef9d50c4cbb4cc9",
+    "https://deno.land/std@0.175.0/async/pool.ts": "fd082bd4aaf26445909889435a5c74334c017847842ec035739b4ae637ae8260",
+    "https://deno.land/std@0.175.0/async/retry.ts": "5efa3ba450ac0c07a40a82e2df296287b5013755d232049efd7ea2244f15b20f",
+    "https://deno.land/std@0.175.0/async/tee.ts": "47e42d35f622650b02234d43803d0383a89eb4387e1b83b5a40106d18ae36757",
+    "https://deno.land/std@0.175.0/http/server.ts": "cbb17b594651215ba95c01a395700684e569c165a567e4e04bba327f41197433",
+    "https://deno.land/std@0.175.0/media_types/_util.ts": "916efbd30b6148a716f110e67a4db29d6949bf4048997b754415dd7e42c52378",
+    "https://deno.land/std@0.175.0/media_types/parse_media_type.ts": "bed260d868ea271445ae41d748e7afed9b5a7f407d2777ead08cecf73e9278de",
+    "https://deno.land/x/imagemagick_deno@0.0.14/mod.ts": "6b58c767d2308488597c3660e7ff399ede244198d7903900fa43a49cf93c7796",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/alpha-option.ts": "749a9f3309e491ec09a1d6bc50ce95d9733887d9f57c6863c4ff1c7e9610227b",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/auto-threshold-method.ts": "bb08a00046137e441930e56190b6db10c5fe657cb0a6142cd565a40b1c4250a2",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/channels.ts": "a15c5f2d278ee7961b4b425c97cfc1fc62c1955c87706c74743fa6215fa482c9",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/color-space.ts": "3d9a60f3a8bfefea8d9525572d7bd6214530c69688e8799dceb492b7797d1d0a",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/composite-operator.ts": "f4b5046415c5965d53b17a9e441a42d87e8477b7c158704abd417d6ac10f3ea0",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/defines/define.ts": "645fb3a06424ed750250212ac8762ba2ea97c4e4fdbda8aedf21734cbaf4833c",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/defines/defines.ts": "fc8e12475e11a30f9f6f9c2b5e2fba94b01d65135654b97694da915d40fae2fe",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/distort-method.ts": "13819e00ccb6a636af9ece5d11dfce9451e578d46c94e1f528b0ae5da7721985",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/drawables/drawable.ts": "61b40233ea3c28664c2f8dfd8d794772d8a7a779f4228060efd41b0d44762521",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/drawables/drawing-wand.ts": "3c495d8cf37eac2c3cc0e840a13aed24457d37414528077b06d3f8aa76cd4cde",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/error-metric.ts": "fafe44d95312b0e9dd6e5d6d3efd536764468a4b80e3dc3d7d7efc33a40fb871",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/evaluate-operator.ts": "c05d51cb193d95ce0432dee914465cbafc35026ea1102cc48f431571bfb67260",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/filter-type.ts": "face0109ae9e56125b778a8842384031d6e0bd688dfcf96c0861f2fd8bb27225",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/gravity.ts": "ed99d33e3775c510c0a29fb330ca5ac9445e41dd3644507186c25cc32eb8634a",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/image-magick.ts": "1ae1c396bb9539b7918ac40c3710d13475f8e9d3d0a5a9216c087c1b95fab4ba",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/exception/exception.ts": "2c1e1d5f6df4fcaef50403ed18f5ebdf560a5e764944d569db406e97f76f2aae",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/geometry-flags.ts": "56bbc3f668db2e67f607cd1c08e07f51ded80a8c402efb0b6cd4ad98d0f69d19",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/magick-rectangle.ts": "ffffcd9ebffe20f871396af22c9f5acb332b5d503a5b21200a94e1e61e4e68b3",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/native-instance.ts": "25b42d5db19439ba7016821bf363d85cabe6fa0784e9ec0e84a975f9ca4a850c",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/native/array.ts": "bcfa4f33246feaf3e1cfd219f188819caf2ed84562f986f508b1ba8beecd28fb",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/native/string.ts": "a3985bf82a8c0e0507001ab1af72c817f6a9f3fffcba532c5504b75102107ce3",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/pointer/pointer.ts": "d866febf67a2d72678e6bd0fd70f751622348c3c2c4ad0aba42dbd750c4f8526",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/internal/string-info.ts": "6121081f0382fdfe259bb6c95655b1626cc68af778ad91af437daa8c55965575",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-color.ts": "6e849e94f3183d86f44d55f4646af394d0d3573fbce8b26b6d6bfbda03dcaf5c",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-colors.ts": "c3a4cdbbca0ebce9386ae71f835118847d8770573efcb63a35c54242aa156f90",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-error-severity.ts": "160e5f07bad67542c9c95a8ec61e70f294333bf7f3c463419dc4fadfacdbdbf6",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-error.ts": "5a515e203373ef48903bda51635e04f232bf3144eaee48c66d65df1e705346d4",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-format-info.ts": "3c20c60a0eab8883cf7268c6993855718de5c3b53cab36097af611ac1a5219f9",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-format.ts": "b5fa87a4dcc9ccdc1465fbee8cc3a6999767c94d67ad0d86b7998af26bf8c309",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-geometry.ts": "c41ec925e2cba2f4a07ab278de87d533aac282f68b038d6ca7075fc09570f759",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-image-collection.ts": "7a1249264e27e9ae7d0e416d6dffe057750f212819c7973f5666f3a80e274e4a",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick-image.ts": "e712e9f6d6f87a426e8a0cf6b467d100d10ee5ca70d81b145c370a1007ca8b27",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/magick.ts": "990bbb125a908afd71bba8b9601704f64abfe68b861e906ec7495f87b2f4c776",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/orientation-type.ts": "a5c48feec25d432e5c3ad3ed76c929a7960836d3ab1012525c0f7883e4f46c30",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/paint-method.ts": "0178827b90549bf587e8ae9e2757cb96607b1fffa5c05d0534a8de136a346d29",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/percentage.ts": "00240337512949c97e407b006cdd025af5fc6db600adce9ca6193ab61e326291",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/pixel-channel.ts": "8039ee75caf150f4f817c49a12f025dd7ca01e263dfd3bd882a55ad0eb17086c",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/pixel-interpolate-method.ts": "d2c62675acb5d8fffca3e2c91c9a35bfebec62f2424268e5e240f9f17f57d356",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/pixels/pixel-collection.ts": "e21b9e3ecd31cd94f7a57939f565f9df3d3009e68fe8a03d8760780096d2e457",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/point.ts": "f664938d0f39eadd41fe5eb8ca81c52b59a7f7138539afea3ddc863d25a4a935",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/profiles/image-profile.ts": "ea1bb6406430a03cf9263a40260fcd8f99bcc14fa3629206fcbcd2679c94b4a2",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/quantum.ts": "7e92f9cf73fc6ec89df48ab4c462339fad580f0b6a1e1009d3c5a5cb599dc3ed",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/settings/distort-settings.ts": "cdb352260b90a140191c222bafde0740114062822400bdf89709bef1c2f40563",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/settings/drawing-settings.ts": "40eb95416367982afd13de2138dd06527a937e1459d6e374f8d5f8e7fa0deb7e",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/settings/magick-read-settings.ts": "95417d00701245c7c5bd202cd0d4f02546ae01a77ecc9d0523c97a84ddf862d5",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/settings/magick-settings.ts": "8fb86c3bd354023d8026624bb4bca78501ae92adea6287f97e687b8b762095d1",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/settings/native-drawing-settings.ts": "b6a04740bd9261a478ff44b631cb039c9f909ed2243cae4e6ae6b3ebcce6dc21",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/settings/native-magick-settings.ts": "859787363161a2c6a693ab5b475859f9e9b02dfb7128215b0c03a68839892d1c",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/virtual-pixel-method.ts": "ae2f0520e05b382299e4d41f4d7e2c67baf727ef7c816037e601c978948b1451",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/wasm/magick.ts": "b5ec7d6c3c7379f8f9ba0c23238f7024aa35f3a15edb2d1cbca4ccc44a186ac9",
+    "https://deno.land/x/imagemagick_deno@0.0.14/src/wasm/magick_native.js": "e7f2cfe41531d94286bf839783c08cc0b4b9c89e6ad7bbd0e2a4dcf70086ca75"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "jsr:@std/media-types@^1.0.3"
+    ]
+  }
+}
